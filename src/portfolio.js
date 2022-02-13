@@ -26,7 +26,7 @@ const projects = [
       'A job portal website where users can kick off their online job finding platform with ease and expertise in mind.',
     stack: ['NodeJs', 'ExpressJs', 'TypeScript', 'ReactJs', 'MongoDB', 'Firebase', 'Redux'],
     sourceCode: 'https://www.github.com/mohammedadelabu/job-finder-app',
-    livePreview: 'https://jobwebapps.herokuapp.com/',
+    livePreview: 'https://jobfinders-api.herokuapp.com/',
   },
   {
     name: 'RECIPE API',
@@ -42,7 +42,7 @@ const projects = [
       'An API contact that allows users to create accounts with unique identities and manage their account numbers generated at point of registration across their daily transactions.',
     stack: ['NodeJs', 'ExpressJs', 'TypeScript', 'MongoDB'],
     sourceCode: 'https://github.com/mohammedadelabu/transfer-api',
-    livePreview: 'https://transfer-service-api.herokuapp.com/',
+    livePreview: 'https://money-transfr-api.herokuapp.com/',
   },
   {
     name: 'COMFY E-COMMERCE SITE',
@@ -50,8 +50,9 @@ const projects = [
       'An e-commerce application for fashion where users can browse through different fashion wears, add to cart, checkout, and make purchases.',
     stack: ['NodeJs', 'ExpressJs', 'TypeScript', 'ReactJs', 'MongoDB', 'Firebase', 'Redux'],
     sourceCode: 'https://github.com/mohammedadelabu/comfy-app-backend',
-    livePreview: 'https://emperor-comfy-store.netlify.app/',
-    livePreview2: 'https://comfy-store-api.herokuapp.com/',
+    livePreview: 'https://comfy-store-api.herokuapp.com/',
+    livePreview1: 'https://emperor-comfy-store.netlify.app/',
+    livePreview2: 'https://five-clothing.herokuapp.com/',
   },
   {
     name: 'CUSTOMER RELATIONSHIP MANAGEMENT (CRM)',
@@ -60,7 +61,6 @@ const projects = [
     stack: ['NodeJs', 'ExpressJs', 'TypeScript'],
     sourceCode: 'https://github.com/mohammedadelabu/',
     livePreview: 'https://emperor-crm.netlify.app/',
-    live:'STAR WARS CHARACTERS API: https://mystarwarsapp.netlify.app/'
   },
   {
     name: 'STAR WARS CHARACTERS API',

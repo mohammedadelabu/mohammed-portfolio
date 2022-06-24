@@ -10,7 +10,7 @@ const about = {
   role: 'Software Engineer',
   description:
     'I am a dynamic and result-oriented Software Engineer, dedicated to creating software applications and achieving the goals of my clients with an innovative and creative mindset. I am a driven hands-on team player and quick in grasping new technologies.',
-  resume: 'https://docs.google.com/document/d/1-fp-eyWGxC8U1O86ArARfE5pONqrFqBTLWuQjXyGE5Y/edit#',
+  resume: 'https://docs.google.com/document/d/1nfu9hMvkUI0sL5JXl2w-Faeg2166Bu_3/edit#',
   social: {
     linkedin: 'https://www.linkedin.com/in/mohammedadelabu',
     github: 'https://github.com/mohammedadelabu',
@@ -21,7 +21,31 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'JOB-FINDER APP',
+    name: 'KULA',
+    description:
+      'An Angular Application where users can learn, earn and connect. Kula connects businesses with independent professionals and agencies around the globe.',
+    stack: ['Angular', 'TypeScript', 'HTML', 'CSS', 'BootStrap', 'Angular Material', 'Java'],
+    sourceCode: 'https://github.com/mohammedadelabu/kulakula',
+    livePreview: 'https://kula.work/',
+  },
+  {
+    name: 'EMPEROR HASSY ANGULAR PROJECT',
+    description:
+      'An Angular Application using Public API to create an interesting game database website.',
+    stack: ['Angular', 'TypeScript', 'HTML', 'CSS', 'BootStrap', 'Angular Material'],
+    sourceCode: 'https://github.com/mohammedadelabu/EmperorHassy-Angular-Project',
+    livePreview: 'https://emperorhassy-angular-game.netlify.app/',
+  },
+  {
+    name: 'EMPEROR CLOTHING',
+    description:
+      'An e-commerce application for fashion where users can browse through different fashion wears, add to cart, checkout, and make purchases.',
+    stack: ['NodeJs', 'ExpressJs', 'TypeScript', 'ReactJs', 'MongoDB', 'Firebase', 'Redux'],
+    sourceCode: 'https://github.com/mohammedadelabu/emperor-clothing',
+    livePreview: 'https://five-clothing.herokuapp.com/',
+  },
+  {
+    name: 'JOB-FINDER API',
     description:
       'A job portal website where users can kick off their online job finding platform with ease and expertise in mind.',
     stack: ['NodeJs', 'ExpressJs', 'TypeScript', 'ReactJs', 'MongoDB', 'Firebase', 'Redux'],
@@ -29,7 +53,7 @@ const projects = [
     livePreview: 'https://jobfinders-api.herokuapp.com/',
   },
   {
-    name: 'RECIPE API',
+    name: 'RESTAURANT RECIPE API',
     description:
       'A food recipe management API where users can sign-up, sign-in, fetch, post, update and delete their various restaurant recipes.',
     stack: ['NodeJs', 'ExpressJs', 'TypeScript', 'MongoDB'],
@@ -51,8 +75,6 @@ const projects = [
     stack: ['NodeJs', 'ExpressJs', 'TypeScript', 'ReactJs', 'MongoDB', 'Firebase', 'Redux'],
     sourceCode: 'https://github.com/mohammedadelabu/comfy-app-backend',
     livePreview: 'https://comfy-store-api.herokuapp.com/',
-    livePreview1: 'https://emperor-comfy-store.netlify.app/',
-    livePreview2: 'https://five-clothing.herokuapp.com/',
   },
   {
     name: 'CUSTOMER RELATIONSHIP MANAGEMENT (CRM)',
@@ -79,6 +101,7 @@ const skills = [
   'CSS',
   'JavaScript',
   'TypeScript',
+  'Angular',
   'NodeJS',
   'ExpressJS',
   'MongoDB',
